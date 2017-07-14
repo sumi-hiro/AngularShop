@@ -14,4 +14,9 @@ export class WearViewComponent implements OnInit {
   ngOnInit() {
   }
 
+  wearviewData: any = [
+    {name: 'パーカー', price: 5000},
+    {name: 'ジャケット', price: 6000},
+    {name: 'ウインドブレーカー', price: 4500}
+  ]
 }
