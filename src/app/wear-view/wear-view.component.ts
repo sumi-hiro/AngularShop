@@ -15,8 +15,8 @@ export class WearViewComponent implements OnInit {
   }
 
   wearviewData: any = [
-    {name: 'パーカー', price: 5000},
-    {name: 'ジャケット', price: 6000},
-    {name: 'ウインドブレーカー', price: 4500}
+    {name: 'パーカー', price: 5000, image: "./assets/images/mo/10-14154B.jpg"},
+    {name: 'ジャケット', price: 6000, image: "./assets/images/mo/10-14157B.jpg"},
+    {name: 'ウインドブレーカー', price: 4500, image: "./assets/images/mo/10-15068B.jpg"}
   ]
 }

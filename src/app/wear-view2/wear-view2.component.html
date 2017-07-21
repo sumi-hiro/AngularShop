@@ -1,12 +1,8 @@
-<p>
-  ダミーだ!
-</p>
-<br>
-<br>
-<li *ngFor="let data of dammywearviewData">
-  {{data.name}} ・・・ {{data.price}} 円
-  <p><img src= {{data.image}}></p>
-  <br><br>
-</li>
-
-
+<p>女性用</p>
+<img src="./assets/images/lo/ladies_outerwear.jpg" alt="女性用アウター">
+<ul>
+  <li *ngFor="let data of dammywearviewData">
+    <p>{{data.name}} ・・・ {{data.price}} 円</p>
+    <p><img src= {{data.image}}></p>
+  </li>
+</ul>

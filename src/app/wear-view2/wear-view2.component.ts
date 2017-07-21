@@ -12,8 +12,8 @@ export class WearView2Component implements OnInit {
   ngOnInit() {
   }
   dammywearviewData: any = [
-    {name: 'ダミーパーカー', price: 50, image: "./assets/images/mo/10-14154B.jpg"},
-    {name: 'ダミージャケット', price: 60, image: "./assets/images/mo/10-14157B.jpg"},
-    {name: 'ダミーウインドブレーカー', price: 45, image: "./assets/images/mo/10-15068B.jpg"}
+    {name: 'パーカー', price: 5000, image: "./assets/images/lo/10-24101B.jpg"},
+    {name: 'ジャケット', price: 6000, image: "./assets/images/lo/10-24102B.jpg"},
+    {name: 'ウインドブレーカー', price: 4500, image: "./assets/images/lo/10-25058B.jpg"}
   ]
 }

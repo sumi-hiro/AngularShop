@@ -1,6 +1,8 @@
-<p>
-  男用だ!
-</p>
-<br>
-<br>
- <li *ngFor="let data of wearviewData">{{data.name}} - {{data.price}}</li>
+<p>男性用</p>
+<img src="./assets/images/mo/mens_outerwear.jpg" alt="男性用アウター">
+<ul>
+   <li *ngFor="let data of wearviewData">
+    <p>{{data.name}} - {{data.price}}</p>
+    <p><img src= {{data.image}}></p>
+  </li>
+</ul>
